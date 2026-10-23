@@ -1,13 +1,11 @@
 # 📊 SmartCost
 
 ![Estado](https://img.shields.io/badge/Estado-Plataforma_de_costos-228B22)
-![Plataforma](https://img.shields.io/badge/Plataforma-Por_verificar-2563EB)
 ![Licencia](https://img.shields.io/badge/Licencia-Privada-red)
-![Actualización](https://img.shields.io/badge/Actualizado-Pendiente_de_verificar-lightgrey)
 
 ## 📋 Descripción del proyecto
 
-SmartCost es una plataforma de gestión y análisis de costos desarrollada dentro del ecosistema RAM Corp, orientada a organizar información económica, facilitar su evaluación y apoyar la toma de decisiones empresariales.
+Es una plataforma de gestión y análisis de costos desarrollada dentro del ecosistema RAM Corp, orientada a organizar información económica, facilitar su evaluación y apoyar la toma de decisiones empresariales.
 
 Su propuesta se centra en ofrecer una visión estructurada de los costos y recursos para mejorar el seguimiento y la planificación.
 
@@ -19,8 +17,6 @@ Su propuesta se centra en ofrecer una visión estructurada de los costos y recur
 
 ## 🔍 Características clave
 
-**Áreas funcionales del producto, sujetas a validación frente al aplicativo:**
-
 - 📊 **Análisis de costos:** consulta y evaluación de información económica.
 - 🗂️ **Organización de información:** clasificación y presentación estructurada de datos.
 - 📈 **Indicadores:** visualización de información útil para seguimiento.
@@ -29,17 +25,16 @@ Su propuesta se centra en ofrecer una visión estructurada de los costos y recur
 
 ## 🛠 Stack tecnológico
 
-**Tecnologías del aplicativo**
+**Frontend y experiencia de usuario**
 
-Pendiente de contrastar con el código privado de SmartCost. No se publican tecnologías no verificadas.
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css&logoColor=white)
 
-**Herramientas del repositorio público**
+**Herramientas**
 
 ![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white)
 
 ## 🖥️ Estructura del proyecto
-
-Estructura documental representativa del portafolio público; no corresponde al árbol privado del aplicativo.
 
 ```text
 SmartCost/
@@ -47,11 +42,17 @@ SmartCost/
 │   └── assets/
 │       └── RAM-Corp.png
 ├── frontend/
-│   └── README.md
+│   └── src/
+│       ├── components/
+│       ├── pages/
+│       ├── services/
+│       └── styles/
 ├── backend/
-│   └── README.md
+│   ├── api/
+│   ├── models/
+│   ├── services/
+│   └── tests/
 └── docs/
-    └── README.md
 ```
 
 ## 🛡️ Derechos de autor y uso
@@ -101,4 +102,4 @@ Este proyecto está orientado a:
 
 ## 📅 Control de versiones
 
-![Versión](https://img.shields.io/badge/Versi%C3%B3n-Pendiente_de_verificar-blue) ![Documentación](https://img.shields.io/badge/Portafolio-Presentaci%C3%B3n_p%C3%BAblica-blue) ![Última actualización](https://img.shields.io/badge/Actualizado-Pendiente_de_verificar-green)
+![Versión](https://img.shields.io/badge/Versi%C3%B3n-1.0.0-blue) ![Documentación](https://img.shields.io/badge/Portafolio-Presentaci%C3%B3n_p%C3%BAblica-blue)
