@@ -1,3 +1,3 @@
-"""Modelo ilustrativo."""
+"""Modelo ilustrativo"""
 class CostExample:
     amount = 0
