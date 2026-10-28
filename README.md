@@ -1,29 +1,33 @@
 # 📊 SmartCost
 
-![Estado](https://img.shields.io/badge/Estado-Plataforma_de_costos-228B22)
-![Plataformas](https://img.shields.io/badge/Plataforma-Web_&_Mobile-2563EB)
+![Estado](https://img.shields.io/badge/Estado-Validaci%C3%B3n_LOCAL_aprobada-228B22)
+![Plataformas](https://img.shields.io/badge/Plataformas-Web_&_Mobile-2563EB)
 ![Licencia](https://img.shields.io/badge/Licencia-Privada-red)
-![Actualización](https://img.shields.io/badge/Actualizado-08_Oct_2026-lightgrey)
+![Actualización](https://img.shields.io/badge/Actualizado-12_Oct_2026-lightgrey)
 
 ## 📋 Descripción del proyecto
 
-Es una plataforma de gestión y análisis de costos desarrollada dentro del ecosistema RAM Corp, orientada a organizar información económica, facilitar su evaluación y apoyar la toma de decisiones empresariales.
+SmartCost es una plataforma web de gestión de costos, operaciones comerciales y finanzas para negocios que fabrican sus propios productos, tercerizan su fabricación o compran para comercializar.
 
-Su propuesta se centra en ofrecer una visión estructurada de los costos y recursos para mejorar el seguimiento y la planificación.
+Integra tres módulos conectados —Costos y Cotización, Clientes y Ventas, y Finanzas— para acompañar el ciclo desde el producto y su costo hasta el pedido, la entrega, el cobro y los resultados económicos.
 
 **Objetivos del proyecto:**
-- Centralizar información relacionada con costos.
-- Facilitar el análisis de datos económicos.
-- Apoyar la evaluación y planificación de recursos.
-- Presentar información de forma clara para la toma de decisiones.
+- Calcular costos y preparar cotizaciones con información persistente.
+- Organizar productos, proveedores, compras, fabricación e inventario.
+- Gestionar clientes, ventas, pedidos, entregas, pagos y cartera.
+- Consultar resultados financieros e indicadores derivados de las operaciones.
 
 ## 🔍 Características clave
 
-- 📊 **Análisis de costos:** consulta y evaluación de información económica.
-- 🗂️ **Organización de información:** clasificación y presentación estructurada de datos.
-- 📈 **Indicadores:** visualización de información útil para seguimiento.
-- 🔎 **Consulta:** exploración de registros y resultados.
-- 💼 **Apoyo empresarial:** información orientada a decisiones de gestión.
+- 🧮 **Costos y Cotización:** cálculos para manufactura propia, fabricación tercerizada y comercialización, con precios y márgenes.
+- 🏭 **Operaciones e inventario:** productos, proveedores, órdenes, recepciones, lotes, existencias y trazabilidad.
+- 🤝 **Clientes y Ventas:** CRM, oportunidades, cotizaciones comerciales, pedidos, entregas y pagos.
+- 💳 **Cartera:** ventas de contado o crédito, abonos y saldos pendientes.
+- 📈 **Finanzas:** ingresos, costos, caja, deuda y márgenes conectados con las operaciones.
+- 📊 **Indicadores e informes:** paneles adaptados a los módulos habilitados y análisis por período.
+- 🏢 **Gestión empresarial:** actividades combinables por empresa, usuarios, roles y permisos.
+- 🧩 **Planes:** Solo Costos, Costos + CRM y Full, con período de prueba de 15 días.
+- 📱 **Experiencia adaptable:** navegación para escritorio y móvil, con temas claro y oscuro.
 
 ## 🛠 Stack tecnológico
 
@@ -39,42 +43,37 @@ Su propuesta se centra en ofrecer una visión estructurada de los costos y recur
 
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white)
+![Uvicorn](https://img.shields.io/badge/Uvicorn-4051B5)
 ![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00)
-![API REST](https://img.shields.io/badge/API-REST-009688)
+![Authlib](https://img.shields.io/badge/Authlib-2563EB)
 
-**Base de datos**
+**Persistencia e infraestructura**
 
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white)
-
-**Herramientas**
-
 ![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white)
 
-**Plataforma**
+**Plataformas**
 
-![Aplicación web](https://img.shields.io/badge/Aplicaci%C3%B3n-Web-0066CC)
+![Aplicación web](https://img.shields.io/badge/Aplicaci%C3%B3n-Web-0066CC) ![Experiencia móvil](https://img.shields.io/badge/Experiencia-M%C3%B3vil-7C3AED)
 
 ## 🖥️ Estructura del proyecto
 
 ```text
 SmartCost/
-├── .github/
-│   └── assets/
-│       └── RAM-Corp.png
 ├── frontend/
-│   ├── src/
-│   │   ├── components/
-│   │   ├── pages/
-│   │   ├── services/
-│   │   └── styles/
-│   └── public/
+│   └── src/
+│       ├── suite/
+│       ├── App.jsx
+│       └── CrmWorkspace.jsx
 ├── backend/
 │   ├── app/
 │   │   ├── routers/
-│   │   ├── models/
 │   │   └── services/
 │   └── tests/
-└── docs/
+├── database/
+├── deploy/
+├── docs/
+└── scripts/
 ```
 
 ## 🛡️ Derechos de autor y uso
@@ -113,15 +112,15 @@ Ecosistema tecnológico enfocado en ingeniería de software, inteligencia artifi
 
 Este proyecto está orientado a:
 
-✅ Facilitar la organización de información de costos.  
-✅ Apoyar el análisis y seguimiento de recursos.  
-✅ Presentar datos útiles para la gestión empresarial.  
-✅ Favorecer decisiones basadas en información estructurada.
+✅ Integrar costos, operaciones comerciales y finanzas en un mismo flujo.  
+✅ Conservar trazabilidad de productos, inventario, ventas y cobros.  
+✅ Facilitar el seguimiento económico de negocios con diferentes actividades.  
+✅ Presentar información útil para tomar decisiones con datos de las operaciones.
 
-**Información de costos para decisiones mejor fundamentadas.**
+**Del costo del producto a la gestión integral del negocio.**
 
 ---
 
 ## 📅 Control de versiones
 
-![Versión](https://img.shields.io/badge/Versi%C3%B3n-1.0.0-blue) ![Documentación](https://img.shields.io/badge/Portafolio-Presentaci%C3%B3n_p%C3%BAblica-blue) ![Última actualización](https://img.shields.io/badge/Actualizado-08_Oct_2026-green)
+![Versión](https://img.shields.io/badge/Frontend-2.0.0-blue) ![Documentación](https://img.shields.io/badge/Portafolio-Presentaci%C3%B3n_p%C3%BAblica-blue) ![Última actualización](https://img.shields.io/badge/Actualizado-12_Oct_2026-green)
